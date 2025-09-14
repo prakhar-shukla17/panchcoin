@@ -69,7 +69,7 @@ const CryptoLoadingScreen = ({ isLoading }) => {
         {[...Array(12)].map((_, i) => (
           <div
             key={i}
-            className="loading-particle absolute w-2 h-2 bg-yellow-400/30 rounded-full"
+            className="loading-particle absolute w-2 h-2 bg-purple-400/30 rounded-full"
             style={{
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
@@ -90,7 +90,7 @@ const CryptoLoadingScreen = ({ isLoading }) => {
 
         {/* Loading Text */}
         <div className="crypto-loading-text">
-          <h2 className="text-5xl font-bold text-yellow-400 mb-4 crypto-glow">
+          <h2 className="text-5xl font-bold text-purple-400 mb-4 crypto-glow">
             PanchCoin
           </h2>
           <p className="text-white/80 text-xl mb-8">
@@ -103,19 +103,19 @@ const CryptoLoadingScreen = ({ isLoading }) => {
           </div>
 
           {/* Loading Percentage */}
-          <div className="crypto-loading-percentage text-yellow-400 text-lg mt-6 font-mono">
+          <div className="crypto-loading-percentage text-purple-400 text-lg mt-6 font-mono">
             0%
           </div>
 
           {/* Loading dots */}
           <div className="flex justify-center mt-4 space-x-1">
-            <div className="loading-dot w-2 h-2 bg-yellow-400 rounded-full animate-bounce"></div>
+            <div className="loading-dot w-2 h-2 bg-purple-400 rounded-full animate-bounce"></div>
             <div
-              className="loading-dot w-2 h-2 bg-yellow-400 rounded-full animate-bounce"
+              className="loading-dot w-2 h-2 bg-purple-400 rounded-full animate-bounce"
               style={{ animationDelay: "0.1s" }}
             ></div>
             <div
-              className="loading-dot w-2 h-2 bg-yellow-400 rounded-full animate-bounce"
+              className="loading-dot w-2 h-2 bg-purple-400 rounded-full animate-bounce"
               style={{ animationDelay: "0.2s" }}
             ></div>
           </div>

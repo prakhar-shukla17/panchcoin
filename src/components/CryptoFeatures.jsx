@@ -127,8 +127,8 @@ const CryptoFeatures = () => {
     <section className="bg-gradient-to-b from-slate-900 to-black pb-52">
       <div className="container mx-auto px-3 md:px-10">
         <div className="px-5 py-32">
-          <div className="bg-black/40 backdrop-blur-sm rounded-2xl p-8 border border-yellow-400/20">
-            <p className="font-circular-web text-xl text-yellow-400 font-semibold mb-4">
+          <div className="bg-black/40 backdrop-blur-sm rounded-2xl p-8 border border-purple-400/20">
+            <p className="font-circular-web text-xl text-purple-400 font-semibold mb-4">
               Into the PanchCoin Universe
             </p>
             <p className="max-w-2xl font-circular-web text-lg text-white leading-relaxed">

@@ -44,7 +44,7 @@ body {
   }
 
   .nav-hover-btn {
-    @apply relative ms-10 font-general text-xs uppercase text-blue-50 after:absolute after:-bottom-0.5 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-800 after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100 dark:after:bg-white cursor-pointer;
+    @apply relative ms-10 font-general text-xs uppercase text-purple-50 after:absolute after:-bottom-0.5 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-800 after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100 dark:after:bg-white cursor-pointer;
   }
 
   .floating-nav {
@@ -126,7 +126,7 @@ body {
   }
 
   .gallery-img-container {
-    @apply size-64 overflow-hidden bg-violet-300;
+    @apply size-64 overflow-hidden bg-purple-500;
   }
 
   .gallery-img {
@@ -149,20 +149,11 @@ body {
     clip-path: polygon(29% 15%, 85% 30%, 50% 100%, 10% 64%);
   }
 
-  .crypto-glow {
-    box-shadow: 0 0 20px rgba(251, 191, 36, 0.3);
-  }
 
   .crypto-gradient {
-    background: linear-gradient(135deg, #fbbf24, #f59e0b, #d97706);
+    background: linear-gradient(135deg, #a855f7, #9333ea, #7c3aed);
   }
 
-  .crypto-text-gradient {
-    background: linear-gradient(135deg, #fbbf24, #f59e0b);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
 
   .crypto-particles {
     position: absolute;
@@ -174,7 +165,7 @@ body {
     position: absolute;
     width: 4px;
     height: 4px;
-    background: linear-gradient(45deg, #fbbf24, #f59e0b);
+    background: linear-gradient(45deg, #a855f7, #9333ea);
     border-radius: 50%;
     animation: float 6s ease-in-out infinite;
   }
@@ -193,19 +184,6 @@ body {
     }
   }
 
-  .crypto-glow {
-    animation: pulse-glow 2s ease-in-out infinite alternate;
-  }
-
-  @keyframes pulse-glow {
-    from {
-      text-shadow: 0 0 10px rgba(251, 191, 36, 0.5);
-    }
-
-    to {
-      text-shadow: 0 0 20px rgba(251, 191, 36, 0.8), 0 0 30px rgba(251, 191, 36, 0.6);
-    }
-  }
 
   .crypto-main-symbol {
     animation: bitcoin-float 4s ease-in-out infinite, bitcoin-rotate 8s linear infinite;
@@ -306,7 +284,7 @@ body {
 .crypto-loader {
   --uib-size: 35px;
   --uib-speed: 0.8s;
-  --uib-color: #fbbf24;
+  --uib-color: #a855f7;
   position: relative;
   display: inline-block;
   height: var(--uib-size);
@@ -435,19 +413,6 @@ body {
   }
 }
 
-@keyframes glow-pulse {
-
-  0%,
-  100% {
-    opacity: 0.3;
-    transform: scale(1);
-  }
-
-  50% {
-    opacity: 0.6;
-    transform: scale(1.1);
-  }
-}
 
 @keyframes rotate-slow {
   0% {
@@ -467,9 +432,6 @@ body {
   animation: float-slow 6s ease-in-out infinite;
 }
 
-.glow-pulse {
-  animation: glow-pulse 3s ease-in-out infinite;
-}
 
 .rotate-slow {
   animation: rotate-slow 20s linear infinite;

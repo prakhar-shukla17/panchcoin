@@ -46,7 +46,7 @@ const Story = () => {
   };
 
   return (
-    <section id="story" className="min-h-dvh w-screen bg-black text-blue-50">
+    <section id="story" className="min-h-dvh w-screen bg-black text-purple-50">
       <div className="flex size-full flex-col items-center py-10 pb-24">
         <p className="font-general text-sm uppercase md:text-[10px]">
           The cryptocurrency revolution
@@ -80,7 +80,7 @@ const Story = () => {
 
         <div className="-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end">
           <div className="flex h-full w-fit flex-col items-center md:items-start">
-            <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
+            <p className="mt-3 max-w-sm text-center font-circular-web text-purple-50 md:text-start">
               Where innovation meets opportunity, lies Panchcoin and the
               boundless future. Discover its potential and shape your financial
               destiny amidst infinite possibilities.

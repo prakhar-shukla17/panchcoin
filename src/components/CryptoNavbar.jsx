@@ -59,11 +59,11 @@ const CryptoNavbar = () => {
       className="fixed inset-x-0 top-4 z-50 h-16 border-none transition-all duration-700 sm:inset-x-6"
     >
       <header className="absolute top-1/2 w-full -translate-y-1/2">
-        <nav className="flex size-full items-center justify-between p-4 bg-black/80 backdrop-blur-md rounded-lg border border-yellow-400/20">
+        <nav className="flex size-full items-center justify-between p-4 bg-black/80 backdrop-blur-md rounded-lg border border-purple-400/20">
           <div className="flex items-center gap-7">
             <div className="flex items-center gap-2">
               <div className="text-2xl">◊</div>
-              <span className="text-xl font-bold text-yellow-400">
+              <span className="text-xl font-bold text-purple-400">
                 PanchCoin
               </span>
             </div>
@@ -71,7 +71,7 @@ const CryptoNavbar = () => {
               id="product-button"
               title="Markets"
               rightIcon={<TiLocationArrow />}
-              containerClass="bg-yellow-400 text-black md:flex hidden items-center justify-center gap-1"
+              containerClass="bg-purple-400 text-black md:flex hidden items-center justify-center gap-1"
             />
           </div>
 
@@ -81,7 +81,7 @@ const CryptoNavbar = () => {
                 <a
                   key={item}
                   href={`#${item.toLowerCase()}`}
-                  className="nav-hover-btn text-white hover:text-yellow-400"
+                  className="nav-hover-btn text-white hover:text-purple-400"
                 >
                   {item}
                 </a>

@@ -27,7 +27,7 @@ const CryptoFooter = () => {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <div className="text-3xl">◊</div>
-                <span className="text-2xl font-bold text-yellow-400">
+                <span className="text-2xl font-bold text-purple-400">
                   PanchCoin
                 </span>
               </div>
@@ -36,14 +36,14 @@ const CryptoFooter = () => {
                 revolution and be part of the sophisticated financial ecosystem.
               </p>
               <div className="flex gap-4">
-                <div className="w-10 h-10 bg-yellow-400/20 rounded-lg flex items-center justify-center">
-                  <span className="text-yellow-400">📱</span>
+                <div className="w-10 h-10 bg-purple-400/20 rounded-lg flex items-center justify-center">
+                  <span className="text-purple-400">📱</span>
                 </div>
-                <div className="w-10 h-10 bg-yellow-400/20 rounded-lg flex items-center justify-center">
-                  <span className="text-yellow-400">🐦</span>
+                <div className="w-10 h-10 bg-purple-400/20 rounded-lg flex items-center justify-center">
+                  <span className="text-purple-400">🐦</span>
                 </div>
-                <div className="w-10 h-10 bg-yellow-400/20 rounded-lg flex items-center justify-center">
-                  <span className="text-yellow-400">💬</span>
+                <div className="w-10 h-10 bg-purple-400/20 rounded-lg flex items-center justify-center">
+                  <span className="text-purple-400">💬</span>
                 </div>
               </div>
             </div>
@@ -54,7 +54,7 @@ const CryptoFooter = () => {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-yellow-400 transition-colors"
+                    className="hover:text-purple-400 transition-colors"
                   >
                     Spot Trading
                   </a>
@@ -62,7 +62,7 @@ const CryptoFooter = () => {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-yellow-400 transition-colors"
+                    className="hover:text-purple-400 transition-colors"
                   >
                     Futures
                   </a>
@@ -70,7 +70,7 @@ const CryptoFooter = () => {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-yellow-400 transition-colors"
+                    className="hover:text-purple-400 transition-colors"
                   >
                     Options
                   </a>
@@ -78,7 +78,7 @@ const CryptoFooter = () => {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-yellow-400 transition-colors"
+                    className="hover:text-purple-400 transition-colors"
                   >
                     Margin Trading
                   </a>
@@ -92,7 +92,7 @@ const CryptoFooter = () => {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-yellow-400 transition-colors"
+                    className="hover:text-purple-400 transition-colors"
                   >
                     Yield Farming
                   </a>
@@ -100,7 +100,7 @@ const CryptoFooter = () => {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-yellow-400 transition-colors"
+                    className="hover:text-purple-400 transition-colors"
                   >
                     Liquidity Pools
                   </a>
@@ -108,7 +108,7 @@ const CryptoFooter = () => {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-yellow-400 transition-colors"
+                    className="hover:text-purple-400 transition-colors"
                   >
                     Staking
                   </a>
@@ -116,7 +116,7 @@ const CryptoFooter = () => {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-yellow-400 transition-colors"
+                    className="hover:text-purple-400 transition-colors"
                   >
                     Lending
                   </a>
@@ -130,7 +130,7 @@ const CryptoFooter = () => {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-yellow-400 transition-colors"
+                    className="hover:text-purple-400 transition-colors"
                   >
                     Help Center
                   </a>
@@ -138,7 +138,7 @@ const CryptoFooter = () => {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-yellow-400 transition-colors"
+                    className="hover:text-purple-400 transition-colors"
                   >
                     API Docs
                   </a>
@@ -146,7 +146,7 @@ const CryptoFooter = () => {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-yellow-400 transition-colors"
+                    className="hover:text-purple-400 transition-colors"
                   >
                     Status
                   </a>
@@ -154,7 +154,7 @@ const CryptoFooter = () => {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-yellow-400 transition-colors"
+                    className="hover:text-purple-400 transition-colors"
                   >
                     Contact Us
                   </a>
@@ -171,19 +171,19 @@ const CryptoFooter = () => {
               <div className="flex gap-6 mt-4 md:mt-0">
                 <a
                   href="#"
-                  className="text-white/70 hover:text-yellow-400 text-sm transition-colors"
+                  className="text-white/70 hover:text-purple-400 text-sm transition-colors"
                 >
                   Privacy Policy
                 </a>
                 <a
                   href="#"
-                  className="text-white/70 hover:text-yellow-400 text-sm transition-colors"
+                  className="text-white/70 hover:text-purple-400 text-sm transition-colors"
                 >
                   Terms of Service
                 </a>
                 <a
                   href="#"
-                  className="text-white/70 hover:text-yellow-400 text-sm transition-colors"
+                  className="text-white/70 hover:text-purple-400 text-sm transition-colors"
                 >
                   Cookie Policy
                 </a>

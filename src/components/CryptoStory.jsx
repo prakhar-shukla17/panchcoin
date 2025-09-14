@@ -55,9 +55,9 @@ const CryptoStory = () => {
         </div>
 
         <div className="story-content mt-16 text-center">
-          <div className="bg-black/40 backdrop-blur-sm rounded-3xl p-12 border border-yellow-400/20 max-w-5xl mx-auto">
+          <div className="bg-black/40 backdrop-blur-sm rounded-3xl p-12 border border-purple-400/20 max-w-5xl mx-auto">
             <h2 className="text-4xl md:text-6xl font-bold text-white mb-8 drop-shadow-lg">
-              The <span className="text-yellow-400">PanchCoin</span> Revolution
+              The <span className="text-purple-400">PanchCoin</span> Revolution
             </h2>
             <p className="text-xl text-white leading-relaxed max-w-4xl mx-auto">
               From the birth of digital currency to the elegant sophistication

@@ -27,9 +27,9 @@ const CryptoContact = () => {
     >
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <div className="bg-black/40 backdrop-blur-sm rounded-3xl p-12 border border-yellow-400/20 max-w-4xl mx-auto">
+          <div className="bg-black/40 backdrop-blur-sm rounded-3xl p-12 border border-purple-400/20 max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg">
-              Get in <span className="text-yellow-400">Touch</span>
+              Get in <span className="text-purple-400">Touch</span>
             </h2>
             <p className="text-xl text-white max-w-2xl mx-auto leading-relaxed">
               Ready to start your PanchCoin journey? Connect with our team of
@@ -39,7 +39,7 @@ const CryptoContact = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-          <div className="contact-card bg-gradient-to-br from-yellow-400/10 to-orange-500/10 rounded-lg p-8 border border-yellow-400/20 backdrop-blur-sm">
+          <div className="contact-card bg-gradient-to-br from-purple-400/10 to-purple-500/10 rounded-lg p-8 border border-purple-400/20 backdrop-blur-sm">
             <h3 className="text-2xl font-bold text-white mb-4 drop-shadow-lg">
               Trading Support
             </h3>
@@ -49,11 +49,11 @@ const CryptoContact = () => {
             </p>
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-white bg-black/20 rounded-lg p-3">
-                <span className="text-yellow-400 text-xl">📧</span>
+                <span className="text-purple-400 text-xl">📧</span>
                 <span className="font-medium">trading@panchcoin.com</span>
               </div>
               <div className="flex items-center gap-3 text-white bg-black/20 rounded-lg p-3">
-                <span className="text-yellow-400 text-xl">📱</span>
+                <span className="text-purple-400 text-xl">📱</span>
                 <span className="font-medium">+1 (555) 123-4567</span>
               </div>
             </div>
