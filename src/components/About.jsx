@@ -29,17 +29,19 @@ const About = () => {
     <div id="about" className="min-h-screen w-screen">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
         <h2 className="font-general text-sm uppercase md:text-[10px]">
-          Welcome to Zentry
+          Welcome to Panchcoin
         </h2>
 
         <AnimatedTitle
-          title="Disc<b>o</b>ver the world's <br /> l<b>a</b>rgest shared adventure"
+          title="Disc<b>o</b>ver the world's <br /> m<b>o</b>st advanced crypto platform"
           containerClass="mt-5 !text-black text-center"
         />
 
         <div className="about-subtext">
-          <p>The Game of Games begins-your life, now an epic MMORPG</p>
-          <p>Zentry unites every player from countless games and platforms</p>
+          <p>The Future of Finance begins-your wealth, now in your control</p>
+          <p>
+            Panchcoin unites every trader from countless markets and platforms
+          </p>
         </div>
       </div>
       <div className="h-dvh w-screen" id="clip">
